@@ -19,6 +19,8 @@ import os
 import base64
 import requests
 from dotenv import load_dotenv
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
 
 # Logging
 logging.basicConfig(level=logging.INFO)
